@@ -95,21 +95,190 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* stylesheet for Unplugged */
+
+/*  -------- Color Pallette ------------
+
+**NEED TO UPDATE**
+#F8FFF4: cream | used for main headings and most paragraphs
+#3A3042: dark purple | used for area backgrounds, main header background, and paragraphs
+#846193: light purple | used for area backgrounds, buttons, and paragraphs
+#E75A7C: deep pink | used for rollovers and accents
+#17BEBB: turquoise | used for area backgrounds and accents
+
+*/
+
+/* -------- Fonts ---------------------
+**NEED TO UPDATE**
+Bebas Neue:  display font | used for headings and nav
+Questrial:   sans-serif font | used for paragraphs
+Black Jack:  script font | used for brand name
+
+*/
+
+
+/*---------- Table of Contents----------
+
+- Base Styles
+- Grid
+- Header
+- Main Content
+  - Sidebar
+  - Feed (for News and Reviews)
+- Footer
+
+*/
+
+
+/***** BASE STYLES *****/
 
 
 
+/***** GRID *****/
 
 
+/***** HEADER *****/
+
+#logo {
+
+}
+
+header {
+  width: 100%;
+}
+
+header h1 {
+
+}
+
+header nav {
+  width: 100%;
+}
+
+header nav ul li {
+
+}
+
+header nav ul li a {
+
+}
+
+/***** MAIN *****/
+
+main {
+  padding: 0 5%;
+  margin: auto;
+  width: 90%;
+}
+
+.hero-area {
+
+}
+
+.top-story {
+
+}
+
+.top-img {
+
+}
+
+.top-story h1 a {
+
+}
+
+.top-story ul li {
+
+}
+
+.byline {
+
+}
+
+.top-story p {
+
+}
+
+/* Sidebar */
+
+.sidebar {
+
+}
+
+.sidebar section h2 {
+
+}
+
+.sidebar section p {
+
+}
+
+.sidebar .btn {
+
+}
+
+.sidebar .btn a {
+
+}
+
+.newsletter {
+
+}
+
+.newsletter input {
+
+}
+
+.newsletter button {
+
+}
+
+.sidebar-upcoming {
+
+}
+
+.sidebar-faq {
+
+}
+
+/* Feed */
+
+.feed h2 {
+
+}
+
+.feed-item {
+
+}
+
+.feed-type {
+
+}
+
+.feed-image {
+
+}
+
+.feed-item h4 {
+
+}
+
+.feed-item p {
+
+}
 
 
+/***** FOOTER *****/
 
+footer {
+  margin: auto;
+  width: 100%;
+}
 
-
-
-
-
-
-
+.footer-logo {
+  width: 47.5%;
+  margin: auto;
+}
 
 /* ==========================================================================
    Helper classes
