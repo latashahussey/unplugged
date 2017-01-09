@@ -202,7 +202,8 @@ main {
 /* Sidebar */
 
 .sidebar {
-
+  margin: auto;
+  width: 100%;
 }
 
 .sidebar section h2 {
@@ -252,19 +253,21 @@ main {
 }
 
 .feed-type {
-
+  width: 100%;
 }
 
 .feed-image {
+  float: left;
+  padding: 0 1%;
 
 }
 
 .feed-item h4 {
-
+  padding: 0 2%;
 }
 
 .feed-item p {
-
+  display: none;
 }
 
 
@@ -360,15 +363,13 @@ footer {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media screen and (min-width: 768px){
+  /* Tablet styles here */
+
 }
 
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+@media screen and (min-width: 940px) {
+  /* Desktop styles here */
 }
 
 /* ==========================================================================
