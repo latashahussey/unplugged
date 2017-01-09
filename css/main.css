@@ -140,7 +140,11 @@ Black Jack:  script font | used for brand name
 /***** HEADER *****/
 
 #logo {
+  width: 100%;
+}
 
+.main-header {
+  width: 100%;
 }
 
 header {
@@ -151,7 +155,7 @@ header h1 {
 
 }
 
-header nav {
+nav {
   width: 100%;
 }
 
@@ -166,9 +170,9 @@ header nav ul li a {
 /***** MAIN *****/
 
 main {
-  padding: 0 5%;
+  padding: 0 2%;
   margin: auto;
-  width: 90%;
+  width: 96%;
 }
 
 .hero-area {
@@ -176,11 +180,11 @@ main {
 }
 
 .top-story {
-
+  width: 100%;
 }
 
 .top-img {
-
+  width: 100%;
 }
 
 .top-story h1 a {
@@ -202,7 +206,6 @@ main {
 /* Sidebar */
 
 .sidebar {
-  margin: auto;
   width: 100%;
 }
 
@@ -222,6 +225,16 @@ main {
 
 }
 
+.sidebar-upcoming,
+.sidebar-faq {
+  display: none;
+}
+
+ {
+
+}
+
+/* Newsletter */
 .newsletter {
 
 }
@@ -234,13 +247,6 @@ main {
 
 }
 
-.sidebar-upcoming {
-
-}
-
-.sidebar-faq {
-
-}
 
 /* Feed */
 
@@ -248,8 +254,16 @@ main {
 
 }
 
-.feed-item {
+.feed p {
+  display: none;
+}
 
+.feed-info {
+
+}
+
+.feed-item {
+  clear: both;
 }
 
 .feed-type {
@@ -258,7 +272,7 @@ main {
 
 .feed-image {
   float: left;
-  padding: 0 1%;
+  width: 45%;
 
 }
 
@@ -266,9 +280,14 @@ main {
   padding: 0 2%;
 }
 
-.feed-item p {
-  display: none;
+
+/* DETAILED PAGES ================================ */
+
+.reviews-img, .news-img{
+    width:100%;
 }
+
+
 
 
 /***** FOOTER *****/
@@ -278,7 +297,7 @@ footer {
   width: 100%;
 }
 
-.footer-logo {
+#footer-logo {
   width: 47.5%;
   margin: auto;
 }
@@ -366,7 +385,86 @@ footer {
 @media screen and (min-width: 768px){
   /* Tablet styles here */
 
+  /* Header =========================== */
+.main-header{
+    width:94%;
 }
+#logo {
+    width: 40%;
+    float:left;
+}
+nav {
+    width: 60%;
+    float:right;
+}
+
+/* Featured News Item =========================== */
+
+    .top-story {
+        width:100%;
+    }
+    .top-img {
+        width:57%;
+        float:left;
+    }
+    .top-info{
+        width:37%;
+        float:left;
+    }
+
+/* Side Bar =========================== */
+
+    .sidebar {
+        clear:both;
+        width:30%;
+        float:right;
+    }
+    .upcoming, .faq {
+        display:block;
+    }
+
+    /* News/Reviews Feed Section =========================== */
+
+    .feed {
+        width:60%;
+        float:left;
+    }
+
+    .feed-img {
+        width:35%;
+    }
+    /* Footer =========================== */
+
+    footer {
+        width: 100%;
+        clear: both;
+    }
+    #footer-logo{
+        width:30%;
+        margin:auto;
+    }
+
+    /* DETAILED PAGES ================================ */
+
+    .reviews-img, .news-img{
+        width:50%;
+        margin:0px;
+        float:left;
+    }
+
+    .detail-title{
+        width:50%;
+        float:right;
+    }
+    aside.detail{
+        width:100%;
+    }
+    .detail .newsletter h2{
+        display:inline;
+    }
+    .detail .newsletter input{
+        display:inline;
+    }
 
 @media screen and (min-width: 940px) {
   /* Desktop styles here */
